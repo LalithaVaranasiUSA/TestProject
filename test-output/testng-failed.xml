@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GroupSuite]">
+  <test name="TestFramework(failed)">
+    <classes>
+      <class name="com.qa.Testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.Testcases.HomePageTest -->
+      <class name="com.qa.Testcases.LearnPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qa.Testcases.LearnPageTest -->
+    </classes>
+  </test> <!-- TestFramework(failed) -->
+</suite> <!-- Failed suite [GroupSuite] -->
