@@ -15,7 +15,12 @@ public class LearnPage extends TestBase {
 	}
 	public String verifyLoginPageTitle()
 	{
-		return(driver.getTitle());
+		String title=driver.getTitle();
+		if(title!=null)			
+		 return(title);
+		else
+			return "";
+		
 	}
 
 }

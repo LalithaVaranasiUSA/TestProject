@@ -31,8 +31,10 @@ public class LearnPageTest extends TestBase {
 	 
 	
 	 @Test
-	 public void loginTest() {
+	 public void loginTest()  {
+		 try {
 		 assertEquals(lp.verifyLoginPageTitle(),"Angular","NOT A CORRECT TITLE***********");
+		 }catch(Exception e) {e.printStackTrace();}
 		 }
  
 
